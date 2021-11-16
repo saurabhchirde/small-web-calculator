@@ -20,20 +20,25 @@ body {
   margin: 0;
   color: var(--text-color);
 }
+
 hr {
   width: 320px;
   margin: -1.9rem auto 3rem auto;
 }
+
 .container {
   text-align: center;
   margin: 4rem auto;
 }
+
 h1 {
   margin: 3rem auto;
 }
+
 label {
   font-size: 1.4rem;
 }
+
 input {
   width: 100px;
   padding: 8px 10px;
@@ -52,16 +57,23 @@ button {
   box-shadow: 0 0 10px -2px rgb(172, 171, 171);
   color: var(--text-color);
 }
+
 .clear {
   width: 330px;
+  margin: 1.2rem 0.7rem 0.4rem 0.7rem;
 }
+
 h3 {
   text-align: center;
   margin: 1rem auto;
 }
+
 .output {
   margin: auto;
+  text-align: center;
+  font-size: 1.6rem;
   width: 200px;
-  padding: 50px 65px;
+  height: 40px;
+  padding: 40px 65px;
   border: 1px dashed var(--button-color);
 }
