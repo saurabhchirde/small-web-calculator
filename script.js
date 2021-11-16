@@ -13,36 +13,28 @@ btnClear.addEventListener("click", () => {
   output.innerText = "";
 });
 
-const add = (val1, val2) => val1 + val2;
-
-const sub = (val1, val2) => val1 - val2;
-
-const mul = (val1, val2) => val1 * val2;
-
-const divi = (val1, val2) => val1 / val2;
-
 btnPlus.addEventListener("click", () => {
   const input1 = Number(n1.value);
   const input2 = Number(n2.value);
-  output.innerText = add(input1, input2);
+  output.innerText = input1 + input2;
 });
 
 btnMinus.addEventListener("click", () => {
   const input1 = Number(n1.value);
   const input2 = Number(n2.value);
-  output.innerText = sub(input1, input2);
+  output.innerText = input1 - input2;
 });
 
 btnMul.addEventListener("click", () => {
   const input1 = Number(n1.value);
   const input2 = Number(n2.value);
-  output.innerText = mul(input1, input2);
+  output.innerText = input1 * input2;
 });
 
 btnDivision.addEventListener("click", () => {
   const input1 = Number(n1.value);
   const input2 = Number(n2.value);
   input1 !== 0 || input2 !== 0
-    ? (output.innerText = divi(input1, input2))
+    ? (output.innerText = input1 / input2)
     : (output.innerText = "Enter valid numbers");
 });
